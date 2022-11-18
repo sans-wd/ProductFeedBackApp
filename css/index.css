@@ -1,6 +1,7 @@
 body{
     margin: 0 auto;
     padding: 0px;
+    background-color: #F2F2F2;
 }
 
 .spbtw{
@@ -86,12 +87,20 @@ color: #647196;
 .concard{
     background: #FFFFFF;
     border-radius: 5px;
-    padding: 10px;
+    padding: 30px;
     border-top: 6px solid #F49F85 ;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
     margin-top: 10px;
 
 
+}
+.inpr{
+    border-top: 6px solid #AD1FEA ;
+
+}
+
+.live{
+    border-top: 6px solid #62BCFA ;
 }
 .concard span{
     font-family: 'Jost';
@@ -106,7 +115,15 @@ color: #647196;
     color: #F49F85;
     font-size: 10px;
 }
+.live span i{
+    color: #62BCFA;
 
+}
+
+.inpr span i {
+    color: #AD1FEA;
+
+}
 .concard h1{
     font-family: 'Jost';
 font-style: normal;
@@ -158,13 +175,18 @@ color: #647196;
     color: #3A4374;
     border-color: transparent;
 }
+.titbuttons button i{
+    margin-right: 8px;
+    color: #4661E6;
+    font-size: 13px;
+}
 
 .icon i{
     margin-left: 3px;
     color: #CDD2EE;
 }
 .icon span{
-    ont-family: 'Jost';
+    font-family: 'Jost';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
